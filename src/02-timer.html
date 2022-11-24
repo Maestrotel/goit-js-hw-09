@@ -7,10 +7,40 @@
     <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
+    <style>
+      .timer {
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+        text-transform: uppercase;
+      }
+
+      .value {
+        font-weight: 500;
+        font-size: 50px;
+        text-transform: uppercase;
+      }
+
+      #datetime-picker {
+        width: 300px;
+        font-weight: 400;
+        font-size: 30px;
+      }
+
+      .field {
+        font-weight: 200;
+        font-size: 20px;
+      }
+
+      .button-timer {
+        font-weight: 500;
+        font-size: 30px;
+      }
+    </style>
     <p><a href="index.html">Go back</a></p>
 
     <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <button type="button" class="button-timer" data-start>Start</button>
 
     <div class="timer">
       <div class="field">
