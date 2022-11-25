@@ -80,20 +80,7 @@ function updateTimer({ days, hours, minutes, seconds }) {
 function addLeadingZero(value) {
   return String(value).padStart(2, '0');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 function convertMs(ms) {
   // Number of milliseconds per unit of time
   const second = 1000;
